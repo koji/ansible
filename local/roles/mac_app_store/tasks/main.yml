@@ -1,3 +1,4 @@
+---
 - name: install applications from app store
   community.general.mas:
     upgrade_all: yes
