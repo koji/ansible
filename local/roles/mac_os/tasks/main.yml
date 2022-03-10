@@ -1,0 +1,29 @@
+- name: AppleShowAllFiles
+  community.general.osx_defaults:
+    domain: com.apple.finder
+    key: AppleShowAllFiles
+    type: bool
+    value: TRUE
+
+- name: AppleShowAllExtensions
+  community.general.osx_defaults:
+    domain: NSGlobalDomain
+    key: AppleShowAllExtensions
+    type: bool
+    value: TRUE
+
+- name: AppleTakeScreenshot
+  community.general.osx.defaults:
+    domain: com.apple.screencapture
+    key: AppleTakeScreenshot
+    type: string
+    value:
+    # save screen capture screenshot folder
+      location: ~/Desktop/screenshots
+
+- name: AppleShowBatteryPercentage
+  community.general.osx.defaults:
+    domain: com.apple.menuextra.battery
+    type: bool
+    value:
+      ShowPercent: TRUE

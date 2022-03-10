@@ -1,0 +1,11 @@
+--- # the first line
+- name: set up
+  hosts: 127.0.0.1 # this is for localhost
+  connection: local
+  gather_facts: false
+
+  roles:
+    - homebrew
+    - homebrew_cask
+    - mac_app_store
+    - mac_os
