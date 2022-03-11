@@ -1,7 +1,20 @@
 # ansible
 
-## how to use
+## requirements
+- homebrew
+- ansible
+- mas-cli
+
+```zsh
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew install ansible
+$ brew install mas
 ```
+
+
+## how to use
+
+```zsh
 $ git clone this repo
 $ cd ansible
 $ cd local
