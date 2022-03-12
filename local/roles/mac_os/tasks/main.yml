@@ -18,16 +18,14 @@
 - name: AppleTakeScreenshot
   community.general.osx_defaults:
     domain: com.apple.screencapture
-    key: AppleTakeScreenshot
+    key: location
     type: string
-    value:
-    # save screen capture screenshot folder
-      location: ~/Desktop/screenshots
+    value: ~/Desktop/screenshots
 
 
 - name: AppleShowBatteryPercentage
   community.general.osx_defaults:
     domain: com.apple.menuextra.battery
-    type: bool
-    value:
-      ShowPercent: TRUE
+    key: ShowPercent
+    type: string
+    value: YES
