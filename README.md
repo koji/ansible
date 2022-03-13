@@ -1,6 +1,7 @@
 # ansible playbooks
 
 ## requirements
+To use ansible and playbook for mac, the followings must be intalled on Mac.
 - homebrew
 - ansible
 - mas-cli
