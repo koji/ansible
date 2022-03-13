@@ -13,6 +13,7 @@ $ brew install mas
 ```
 
 ### how to check app id with mas
+For installing Apps via App Store, we will need to know appId instead of App name.
 ```zsh
 $  mas search Xcode
 497799835  Xcode                                               (13.2.1)
