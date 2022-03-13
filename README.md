@@ -30,6 +30,7 @@ $ cd ansible
 $ cd local
 
 # if you update any yml files, need to check syntax with the following command
+# if you get any errors, you will need to fix them.
 $ ansible-playbook playbook.yml --syntax-check
 
 # run ansible-playbook
